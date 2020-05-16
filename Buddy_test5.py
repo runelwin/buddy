@@ -299,7 +299,7 @@ def execute(prefs, print_output=True, recursion_limit=100000):
 	for person in Person.ppl.values():
 		# before proposing, we need to make sure everybody hasn't rejected them yet!
 		# this would happen iff everybody else has already received better offers...
-        print("Bug test number "&Bug_test)
+		print("Bug test number "&Bug_test)
 		if len(person.current_prefs) > 0:       
 			person.propose_to(person.current_prefs[0])  # propose to your top choice
 
